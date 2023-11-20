@@ -28,3 +28,14 @@ button {
   cursor: pointer;
   transition: 0.25s;
 }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  button {
+    padding: 0.75rem 2rem;
+    font-size: 2rem;
+  }
+}
